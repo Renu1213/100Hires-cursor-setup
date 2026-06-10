@@ -25,8 +25,11 @@ Similarly, Extensions → Search "Codex" was performed. The Codex extension by O
 
 ### Step 05: Verify Installed Extensions
 The following command was run in the Cursor PowerShell terminal:
+
 cursor --list-extensions
+
 Output:
+
 anthropic.claude-code
 anysphere.remote-ssh
 openai.chatgpt
@@ -44,6 +47,7 @@ With the project folder (repository: 100Hires-cursor-setup) open in Cursor, a ne
 ### Step 08: Commit and Push Changes to GitHub
 After creating the README file, a local Git repository was initialized and connected to the GitHub repository. The README file was then staged, committed, and pushed to the main branch.
 The following commands were used:
+
 git init
 git remote add origin https://github.com/Renu1213/100Hires-cursor-setup.git
 git branch -M main
