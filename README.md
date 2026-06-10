@@ -8,7 +8,6 @@
 4. Git
 5. GitHub
 
-
 ## Steps Completed
 
 ### Step 01: Install Cursor IDE
@@ -25,14 +24,15 @@ Similarly, Extensions → Search "Codex" was performed. The Codex extension by O
 
 ### Step 05: Verify Installed Extensions
 The following command was run in the Cursor PowerShell terminal:
-
-cursor --list-extensions
+ "cursor --list-extensions"
 
 Output:
 
-anthropic.claude-code
-anysphere.remote-ssh
-openai.chatgpt
+ "anthropic.claude-code" 
+ 
+ "anysphere.remote-ssh"
+ 
+ "openai.chatgpt"
 
 This output confirmed that both required extensions were installed successfully.
 
@@ -48,12 +48,18 @@ With the project folder (repository: 100Hires-cursor-setup) open in Cursor, a ne
 After creating the README file, a local Git repository was initialized and connected to the GitHub repository. The README file was then staged, committed, and pushed to the main branch.
 The following commands were used:
 
-git init
-git remote add origin https://github.com/Renu1213/100Hires-cursor-setup.git
-git branch -M main
-git add README.md
-git commit -m "Initial README setup"
-git push -u origin main
+ "git init"
+ 
+ "git remote add origin https://github.com/Renu1213/100Hires-cursor-setup.git"
+ 
+ "git branch -M main"
+ 
+ "git add README.md"
+ 
+ "git commit -m "Initial README setup" "
+ 
+ "git push -u origin main"
+ 
 
 GitHub authentication was completed through the browser when prompted, and the repository was successfully synchronized with GitHub.
 
@@ -76,8 +82,10 @@ Issue 03
 ISSUE: The required extensions were not available through the Marketplace interface. Searching the Marketplace for "Claude Code" returned no relevant results.
 
 SOLVED BY: The extensions were installed directly using the Cursor CLI with the following commands:
-cursor --install-extension anthropic.claude-code
-cursor --install-extension openai.chatgpt
+ 
+ "cursor --install-extension anthropic.claude-code" 
+
+ "cursor --install-extension openai.chatgpt" 
 
 Issue 04
 
