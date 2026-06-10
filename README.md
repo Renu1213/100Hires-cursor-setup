@@ -42,12 +42,16 @@ Repository URL: https://github.com/Renu1213/100Hires-cursor-setup
 With the project folder (repository: 100Hires-cursor-setup) open in Cursor, a new file was created using the "New File" option in the left file explorer. The file was named "README.md", populated with the Cursor setup details, and saved successfully.
 
 ### Step 08: Commit and Push Changes to GitHub
-Git was used to save and upload the documentation to the GitHub repository using the following commands:
-
+After creating the README file, a local Git repository was initialized and connected to the GitHub repository. The README file was then staged, committed, and pushed to the main branch.
+The following commands were used:
+git init
+git remote add origin https://github.com/Renu1213/100Hires-cursor-setup.git
+git branch -M main
 git add README.md
-git commit -m "Add setup documentation"
-git push origin main
+git commit -m "Initial README setup"
+git push -u origin main
 
+GitHub authentication was completed through the browser when prompted, and the repository was successfully synchronized with GitHub.
 
 ## Issues Faced and How They Were Solved
 
